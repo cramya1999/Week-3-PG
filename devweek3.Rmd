@@ -1,19 +1,17 @@
 ---
-title: "Developing_week3"
-author: "Prem Kiran P"
-date: "11/5/2020"
-output:
-  html_document: default
-  word_document: default
+title: "DataProducts"
+author: "RamyaChilakala"
+date: "06/11/2020"
+output: html_document
+---
 ---
 
----
 ```{r}
 library(plotly)
 data(mtcars)
 head(mtcars,100)
 ```
-The data given by the google information we have made the  explortaory graphs useful for the human beings which they can be made to analyse relationship between the variables like mileage gives verse weigth of data like the cylinders count used in total, gears count the given cylinder has, carbs count the cylinds have in total. The relationship between horse power and mileage or qsec and mileage can also be checked. Our desired graph can be made as our custmers wanted it by taking the options and needs required for it are also to be considered.
+the data given by the google information we have made the  explortaory graphs useful for the human beings which they can be made to analyse relationship between the variables like mileage gives verse weigth of data like the cylinders count used in total, gears count the given cylinder has, carbs count the cylinds have in total. The relationship between horse power and mileage or qsec and mileage can also be checked. Our desired graph can be made as our custmers wanted it by taking the options and needs required for it are also to be considered.
 In this the graph plated by me is between mileage(mpg) verses weight.
 ```{r}
 plot_ly(mtcars) %>%
